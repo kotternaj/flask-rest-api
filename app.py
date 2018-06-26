@@ -27,6 +27,6 @@ api.add_resource(UserRegister, '/register')
 
 if __name__ == '__main__':
     from db import db
-    db.init_app(app2)
+    db.init_app(app)
     app.run(port=5001, debug=True)
 
